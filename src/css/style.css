@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffaeff url('../images/bg-repeat.jpg') repeat-x;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.container .section-info,
+.container .section-form {
+    width: 400px;
+    margin: 0 25px;
+}
+
+.container .section-info h1 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.container .section-info p {
+    color: #fff;
+}
+
+.container .section-info h1,
+.container .section-info p {
+    margin: 10px 0px;
+}
+
+
+.section-form {    
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+.section-form form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.section-form .form .input {
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.section-form .form .campos-obrigatorios {
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+.section-form .form #btn-enviar {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(132, 230, 132);
+    color: #fff;
+}

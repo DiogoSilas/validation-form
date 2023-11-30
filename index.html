@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation Form</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-    <h1>Validation Form</h1>
+    <main class="container">
+        <section class="section-info">
+            <h1 class="info">Ficou com dúvida?<br> Nos mande uma mensagem!</h1>
+            <p class="info">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+        <section  class="section-form">
+            <form class="form">
+                <input class="input" type="text" placeholder="Nome completo *">
+                <input class="input" type="text" placeholder="Email *">
+                <input class="input" type="text" placeholder="Telefone *">
+                <input class="input input-mensagem" type="text" placeholder="Mensagem *">
+                <p class="campos-obrigatorios">*campos obrigatórios</p>
+                <button id="btn-enviar" type="button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="./src/javascript/javascript.js"></script>
+    <script src="./src/javascript/style.js"></script>
 </body>
 </html>
