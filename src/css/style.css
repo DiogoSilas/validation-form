@@ -35,12 +35,12 @@
     padding: 20px;
     background-color: #fff;
 }
-.section-form form {
+.section-form .form {
     display: flex;
     flex-flow: column wrap;
 }
 
-.section-form .form .input {
+.section-form .form .input-form {
     padding: 5px;
     margin: 10px 0px;
 }
