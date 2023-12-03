@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation Form</title>
 
+    <!--Styles-->
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+
+    <!--Scripts-->
+    <script src="./src/javascript/index.js" defer></script>
 </head>
 <body>
     <main class="container">
@@ -15,18 +19,23 @@
             <p class="info">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
         </section>
         <section  class="section-form">
-            <form class="form">
-                <input class="input-form" type="text" placeholder="Nome completo *">
-                <input class="input-form" type="text" placeholder="Email *">
-                <input class="input-form" type="text" placeholder="Telefone *">
-                <input class="input-form input-mensagem" type="text" placeholder="Mensagem *">
-                <p class="campos-obrigatorios">*campos obrigatórios</p>
-                <button id="btn-enviar" type="button">Enviar</button>
+            <form id="form" class="form">
+                <input class="input-form" id="username" type="text" placeholder="Nome completo *">
+                <a class="msg-alert"></a>
+
+                <input class="input-form" id="email" type="email" placeholder="Email *">
+                <a class="msg-alert"></a>
+
+                <input class="input-form" id="telefone" type="number" placeholder="Telefone *">
+                <a class="msg-alert"></a>
+
+                <textarea id="mensagem" name="mensagem" placeholder="Nos mande uma mensagem *" rows="4"></textarea>
+                <a class="msg-alert"></a>
+
+                <p class="campos-obrigatorios">* campo obrigatórios</p>
+                <button id="btn-enviar" type="submit">Enviar</button>
             </form>
         </section>
     </main>
-
-    <script src="./src/javascript/javascript.js"></script>
-    <script src="./src/javascript/style.js"></script>
 </body>
 </html>
