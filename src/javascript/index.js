@@ -13,6 +13,8 @@ form.addEventListener("submit", (event) => {
         msgDeAlerta[0].innerHTML = "<a>campo obrigatório</a>"
     } else {
         username.style.borderColor = '#84e684'
+        msgDeAlerta[0].innerHTML = ""
+
     }
 
     if(email.value ==="" || email.value === null) {
@@ -20,6 +22,7 @@ form.addEventListener("submit", (event) => {
         msgDeAlerta[1].innerHTML = "<a>campo obrigatório</a>"
     } else {
         email.style.borderColor = '#84e684'
+        msgDeAlerta[1].innerHTML = ""
     }
 
     if(telefone.value === "" || telefone.value === null) {
@@ -27,6 +30,7 @@ form.addEventListener("submit", (event) => {
         msgDeAlerta[2].innerHTML = "<a>campo obrigatório</a>"
     } else {
         telefone.style.borderColor = '#84e684'
+        msgDeAlerta[2].innerHTML = ""
     }
 
     if(mensagem.value === "" || mensagem.value === null) {
@@ -34,5 +38,6 @@ form.addEventListener("submit", (event) => {
         msgDeAlerta[3].innerHTML = "<a>campo obrigatório</a>"
     } else {
         mensagem.style.borderColor = '#84e684'
+        msgDeAlerta[3].innerHTML = ""
     }
 })
