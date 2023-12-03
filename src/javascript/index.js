@@ -34,6 +34,6 @@ form.addEventListener("submit", (event) => {
         mensagem.style.borderColor = '#bb0000'
         msgDeAlerta[3].innerHTML = "<a>campo obrigatório</a>"
     } else {
-        mensagem.style.borderBlockColor = '#84e684'
+        mensagem.style.borderColor = '#84e684'
     }
 })
