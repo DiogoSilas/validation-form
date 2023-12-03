@@ -4,7 +4,6 @@ const email = document.getElementById("email")
 const telefone = document.getElementById("telefone")
 const mensagem = document.getElementById("mensagem")
 const msgDeAlerta = document.getElementsByClassName("msg-alert")
-console.log(form, username, email, telefone, mensagem, msgDeAlerta)
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
