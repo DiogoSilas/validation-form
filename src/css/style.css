@@ -1,12 +1,15 @@
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+body {
     background: #ffaeff url('../images/bg-repeat.jpg') repeat-x;
     background-size: contain;
     background-attachment: fixed;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container .section-info,
@@ -37,6 +40,26 @@
     margin: 10px 0px;
 }
 
+.container .redes-sociais {
+    margin: 20px 0px;
+}
+
+.container .redes-sociais a:visited {
+    color: #ffffff;
+}
+
+.container .redes-sociais i {
+    margin-right: 15px;
+    font-size: 28px;
+    color: #ffffffe7;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.container .redes-sociais i:hover {
+    color: #fe6f3b;
+}
+
 
 .section-form {    
     border-radius: 5px;
@@ -48,10 +71,15 @@
     flex-flow: column wrap;
 }
 
+.section-form .label {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
 .section-form .form .input-form,
 .section-form .form #mensagem {
     padding: 5px;
-    margin: 15px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
     border: 1px solid #5f5f5f;
     border-radius: 5px;
 }
