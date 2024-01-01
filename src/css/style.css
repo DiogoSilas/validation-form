@@ -42,6 +42,7 @@ body {
 
 .container .redes-sociais {
     margin: 20px 0px;
+    cursor: pointer;
 }
 
 .container .redes-sociais a:visited {
